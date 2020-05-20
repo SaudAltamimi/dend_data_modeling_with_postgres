@@ -6,7 +6,13 @@ def create_database():
     ''' Create sparkifydb and then connect to it to start the ETL process
     '''
     # connect to default database
-    conn = psycopg2.connect("host=127.0.0.1 dbname=studentdb user=student password=student")
+    
+    conn = psycopg2.connect(host= '127.0.0.1',
+                            port='5432',
+                            dbname="studentdb", 
+                            user="student", 
+                            password="student"
+                            )
     conn.set_session(autocommit=True)
     cur = conn.cursor()
     
