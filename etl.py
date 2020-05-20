@@ -127,7 +127,7 @@ def main():
     # connect to Database
     
     conn = psycopg2.connect(host= '127.0.0.1',
-                            port='5432',
+                            port='8080',
                             dbname="sparkifydb", 
                             user="student", 
                             password="student"
