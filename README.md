@@ -49,4 +49,4 @@ Using the song and log datasets, we need to create a star schema optimized for q
 The `etl.ipynb` notebook was used to develop and document ETL processes for each table. Run `test.ipynb` to confirm that records were successfully inserted into each table. Remember to rerun `create_tables.py` to reset your tables before each time you run this notebook.
 
 ## Build ETL Pipeline
-The complete pipeline are in etl.py, where it will process the entire datasets. Remember to run `create_tables.py` before running `etl.py` to reset your the tables. Run `test.ipynb` to confirm your records were successfully inserted into each table.
+The complete pipeline are in etl.py, it will process the entire datasets. Remember to run `create_tables.py` before running `etl.py` to reset your the tables. Run `test.ipynb` to confirm your records were successfully inserted into each table.
