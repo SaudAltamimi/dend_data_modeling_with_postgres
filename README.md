@@ -36,9 +36,10 @@ Using the song and log datasets, we need to create a star schema optimized for q
 
 ---
 ### To create the same environment (PostgreSQL relational database)?
-> Set an enviroment variable `expose POSTGRES_USER=<chosen_super_user>` 
+`Using Docker`
+> Pull Postgres official image: `docker pull postgres` 
 
-> using docker: run `docker-compose -f postgres.yml up`
+> run `docker run -d -e POSTGRES_PASSWORD=student -e POSTGRES_DB=studentdb -e POSTGRES_USER=student -p 5432:5432 -t postgres`
 
 ---
 ## How to create the database and populate data?
