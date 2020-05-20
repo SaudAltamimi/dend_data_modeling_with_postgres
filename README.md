@@ -35,8 +35,10 @@ Using the song and log datasets, we need to create a star schema optimized for q
 > start_time, hour, day, week, month, year, weekday
 
 ---
-### How to create the same environment (PostgreSQL relational database)?
-> using **docker**
+### To create the same environment (PostgreSQL relational database)?
+> Set an enviroment variable `expose POSTGRES_USER=<chosen_super_user>` 
+
+> using docker: run `docker-compose -f postgres.yml up`
 
 ---
 ## How to create the database and populate data?
