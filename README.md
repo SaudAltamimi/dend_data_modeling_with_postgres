@@ -33,10 +33,10 @@ Using the song and log datasets, we need to create a star schema optimized for q
 4. **time** - timestamps of records in songplays broken down into specific units
 > start_time, hour, day, week, month, year, weekday
 
-
-## How to create the same environment (PostgreSQL relational database)?
-> using docker
-
+---
+### How to create the same environment (PostgreSQL relational database)?
+> using **docker**
+---
 ## How to create the database and populate data?
 
 ### Create Tables
