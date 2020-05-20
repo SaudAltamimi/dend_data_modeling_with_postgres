@@ -14,7 +14,7 @@ The log files in the dataset we will be working with are partitioned by year and
 
 
 ---
-## The new Schema
+## New Schema
 Using the song and log datasets, we need to create a star schema optimized for queries on song play analysis. This includes the following tables.
 
 ### Fact Table
