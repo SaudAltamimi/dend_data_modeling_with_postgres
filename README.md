@@ -1,5 +1,5 @@
 # Project: Data Modeling with Postgres
-One of the udacity data engineering nano-degree projects, where we need to implement a simple ETL (OLAP data modeling) to simplify the analysing the required data for the business.
+One of the udacity data engineering nano-degree projects, where we need to implement a simple ETL (OLAP data modeling) to simplify analysing the required data for the business.
 
 ---
 ## Raw data
